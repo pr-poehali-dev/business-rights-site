@@ -25,8 +25,14 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#DC2626',
+					foreground: '#FFFFFF'
+				},
+				government: {
+					red: '#DC2626',
+					gray: '#1F2937',
+					lightGray: '#F8FAFC',
+					darkGray: '#374151'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
